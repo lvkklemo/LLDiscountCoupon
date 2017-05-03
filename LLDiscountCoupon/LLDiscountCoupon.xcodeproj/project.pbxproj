@@ -13,6 +13,13 @@
 		288E07741EB9659C0065CA39 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 288E07721EB9659C0065CA39 /* Main.storyboard */; };
 		288E07761EB9659C0065CA39 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 288E07751EB9659C0065CA39 /* Assets.xcassets */; };
 		288E07791EB9659C0065CA39 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 288E07771EB9659C0065CA39 /* LaunchScreen.storyboard */; };
+		288E07861EB9803B0065CA39 /* UserOrderManageCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 288E07841EB9803B0065CA39 /* UserOrderManageCollectionViewCell.m */; };
+		288E07871EB9803B0065CA39 /* UserOrderManageCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 288E07851EB9803B0065CA39 /* UserOrderManageCollectionViewCell.xib */; };
+		288E078A1EB98C6A0065CA39 /* CardCouponCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 288E07891EB98C6A0065CA39 /* CardCouponCell.m */; };
+		288E078D1EB98D1F0065CA39 /* UIViewExt.m in Sources */ = {isa = PBXBuildFile; fileRef = 288E078C1EB98D1F0065CA39 /* UIViewExt.m */; };
+		288E07901EB998D00065CA39 /* KHLButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 288E078F1EB998D00065CA39 /* KHLButton.m */; };
+		288E07931EB99A210065CA39 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 288E07921EB99A210065CA39 /* UIView+Extension.m */; };
+		288E07961EB99DB20065CA39 /* CardCouponModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 288E07951EB99DB20065CA39 /* CardCouponModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +33,19 @@
 		288E07751EB9659C0065CA39 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		288E07781EB9659C0065CA39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		288E077A1EB9659C0065CA39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		288E07831EB9803B0065CA39 /* UserOrderManageCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserOrderManageCollectionViewCell.h; sourceTree = "<group>"; };
+		288E07841EB9803B0065CA39 /* UserOrderManageCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserOrderManageCollectionViewCell.m; sourceTree = "<group>"; };
+		288E07851EB9803B0065CA39 /* UserOrderManageCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UserOrderManageCollectionViewCell.xib; sourceTree = "<group>"; };
+		288E07881EB98C6A0065CA39 /* CardCouponCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardCouponCell.h; sourceTree = "<group>"; };
+		288E07891EB98C6A0065CA39 /* CardCouponCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardCouponCell.m; sourceTree = "<group>"; };
+		288E078B1EB98D1F0065CA39 /* UIViewExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UIViewExt.h; path = classes/UIViewExt.h; sourceTree = "<group>"; };
+		288E078C1EB98D1F0065CA39 /* UIViewExt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UIViewExt.m; path = classes/UIViewExt.m; sourceTree = "<group>"; };
+		288E078E1EB998D00065CA39 /* KHLButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KHLButton.h; path = classes/KHLButton.h; sourceTree = "<group>"; };
+		288E078F1EB998D00065CA39 /* KHLButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KHLButton.m; path = classes/KHLButton.m; sourceTree = "<group>"; };
+		288E07911EB99A210065CA39 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+Extension.h"; path = "classes/UIView+Extension.h"; sourceTree = "<group>"; };
+		288E07921EB99A210065CA39 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+Extension.m"; path = "classes/UIView+Extension.m"; sourceTree = "<group>"; };
+		288E07941EB99DB20065CA39 /* CardCouponModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardCouponModel.h; sourceTree = "<group>"; };
+		288E07951EB99DB20065CA39 /* CardCouponModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardCouponModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +78,15 @@
 		288E07681EB9659C0065CA39 /* LLDiscountCoupon */ = {
 			isa = PBXGroup;
 			children = (
+				288E07821EB9803B0065CA39 /* classes */,
 				288E076C1EB9659C0065CA39 /* AppDelegate.h */,
 				288E076D1EB9659C0065CA39 /* AppDelegate.m */,
+				288E078B1EB98D1F0065CA39 /* UIViewExt.h */,
+				288E078C1EB98D1F0065CA39 /* UIViewExt.m */,
+				288E078E1EB998D00065CA39 /* KHLButton.h */,
+				288E078F1EB998D00065CA39 /* KHLButton.m */,
+				288E07911EB99A210065CA39 /* UIView+Extension.h */,
+				288E07921EB99A210065CA39 /* UIView+Extension.m */,
 				288E076F1EB9659C0065CA39 /* ViewController.h */,
 				288E07701EB9659C0065CA39 /* ViewController.m */,
 				288E07721EB9659C0065CA39 /* Main.storyboard */,
@@ -77,6 +104,20 @@
 				288E076A1EB9659C0065CA39 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		288E07821EB9803B0065CA39 /* classes */ = {
+			isa = PBXGroup;
+			children = (
+				288E07881EB98C6A0065CA39 /* CardCouponCell.h */,
+				288E07891EB98C6A0065CA39 /* CardCouponCell.m */,
+				288E07941EB99DB20065CA39 /* CardCouponModel.h */,
+				288E07951EB99DB20065CA39 /* CardCouponModel.m */,
+				288E07831EB9803B0065CA39 /* UserOrderManageCollectionViewCell.h */,
+				288E07841EB9803B0065CA39 /* UserOrderManageCollectionViewCell.m */,
+				288E07851EB9803B0065CA39 /* UserOrderManageCollectionViewCell.xib */,
+			);
+			path = classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +179,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				288E07791EB9659C0065CA39 /* LaunchScreen.storyboard in Resources */,
+				288E07871EB9803B0065CA39 /* UserOrderManageCollectionViewCell.xib in Resources */,
 				288E07761EB9659C0065CA39 /* Assets.xcassets in Resources */,
 				288E07741EB9659C0065CA39 /* Main.storyboard in Resources */,
 			);
@@ -151,8 +193,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				288E07711EB9659C0065CA39 /* ViewController.m in Sources */,
+				288E078A1EB98C6A0065CA39 /* CardCouponCell.m in Sources */,
+				288E07861EB9803B0065CA39 /* UserOrderManageCollectionViewCell.m in Sources */,
 				288E076E1EB9659C0065CA39 /* AppDelegate.m in Sources */,
+				288E078D1EB98D1F0065CA39 /* UIViewExt.m in Sources */,
 				288E076B1EB9659C0065CA39 /* main.m in Sources */,
+				288E07961EB99DB20065CA39 /* CardCouponModel.m in Sources */,
+				288E07931EB99A210065CA39 /* UIView+Extension.m in Sources */,
+				288E07901EB998D00065CA39 /* KHLButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

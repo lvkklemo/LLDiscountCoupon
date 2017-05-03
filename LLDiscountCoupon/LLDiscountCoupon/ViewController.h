@@ -8,6 +8,17 @@
 
 #import <UIKit/UIKit.h>
 
+typedef enum : NSUInteger {
+    //全部
+    UserCouponTypeAll = 0,
+    //可使用
+    UserCouponTypeAvailable,
+    //已使用
+    UserCouponTypeUnavailable,
+    //已过期
+    UserCouponTypeOutOfDate,
+} UserOrderType;
+
 @interface ViewController : UIViewController
 
 
